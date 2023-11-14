@@ -9,12 +9,12 @@ class Empresa
 
 
     /* Metodo construtor da classe. e executado ao instanciar um objeto */ 
-    public function __consruct ($nome,$tempo,$valor,$logo)
+    public function __consruct ($nome,$cnpj,$endereco,$telefone)
     {
         $this->nome = $nome;
         $this->cnpj = $cnpj;
         $this->endereco = $endereco;
-        $this->logo = $logo;
+        $this->telefone = $telefone;
         
 
     }
